@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: grey
+}
+
+h2{
+  font-size: 2.5rem
+}
+
+.bold{
+  font-weight: bold
+}
+
+:focus{
+  border: none;
+  box-shadow: none;
+  outline: none
+}
+
+.pointer{
+  cursor: pointer
+}
+
+.dot{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.15)
+}
+
+.btn{
+  border-radius: 12px;
+  background: transparent;
+  border: 1px solid transparent;
+  width: 100%;
+  color: white;
+  padding: 1.5rem
+}
+
+.d-flex{
+  display: flex
+}
+
+.space-btw{
+  justify-content: space-between
+}
+
+.purple{
+  background: purple;
+  border: none
+}
+
+.text-purple{
+  color: purple
+}
+
+.text-lightgrey{
+  color: #ccc
+}
+
+.container{
+  min-height: 100vh;
+  background-image: url('bg.jpg');
+  background-size: cover
+}
+
+.header{
+  display: inline-block;
+  width: 100%;
+  padding: 8px 4rem;
+}
+
+.header .main-list li{
+  margin-right: 15px;
+  margin-bottom: 20px
+}
+
+.header .main-list li:last-child a{
+  border: 1px solid white
+}
+
+.header .main-list a{
+  padding: 10px;
+  color: white;
+  border-radius: 3px;
+}
+
+.float-left{
+  float: left;
+}
+
+li{
+  list-style: none
+}
+
+.main-list{
+  float: right;
+  padding-top: 15px
+}
+
+.main-list li{
+  float: left
+}
+
+.content{
+  width: 85%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+@media(min-width: 768px){
+  .content{
+    width: 100%;
+    max-width: 600px;
+    margin-left: 4rem
+  }
+
+  .content-form{
+    width: 70%
+  }
+}
+
+.content table{
+  width: 100%
+}
+
+.content table .input-box{
+  margin-top: 1.5rem
+}
+
+.content .input-box{
+  background: white;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.15)
+}
+
+.content .input-box input{
+  border: none;
+  width: 100%
+}
+
+input.input-box{
+  border: 1px solid transparent;
+  width: 48%
+}
+
+.content-form button{
+  margin-top: 1.5rem
+}
